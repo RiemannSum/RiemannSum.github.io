@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+	<title>Testing JSON Files</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body class="background">
+	<div class="white">
+		<p>Json Test</p>
+	</div>
+
+	<div class="white">
+		<button onclick="changeValue()">Test Button</button>
+		<p id="insert">This should change</p>
+	</div>
+
+	<hr>
+
+	<div class="white">
+		<h3>Reading JSON Test</h3>
+		<p>Enter a value to parse the JSON file for</p>
+		<input type="text" placeholder="Default" id="default"></input>
+		<br>
+		<button onclick="parseJson()">Parse JSON File</button>
+		<br>
+		<input id="found" value="Parsed Value"></input>
+
+		<!-- <button onclick="parseJson()">Test</button> -->
+	</div>
+
+	<hr>
+
+	<div class="white">
+		<h3>Testing Authentification</h3>
+		<p>Enter Username and Password</p>
+		<input placeholder="Username" id="user"></input>
+		<input placeholder="Password" id="pass"></input>
+		<button onclick="auth()">Enter</button>
+		<br>
+		<p id="result">Authentification</p>
+	</div>
+
+	<br>
+	<hr>
+	<p class="white">
+		<a href="https://riemannsum.github.io/index.html">Home Page</a>
+	</p>
+
+	<script src="./Javascript Files/testFunction.js"></script>
+	<script src="./Javascript Files/jsonFunctions.js"></script>
+	<script src="./Javascript Files/auth.js"></script>
+</body>
+</html>
